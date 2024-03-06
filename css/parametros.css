@@ -1,0 +1,53 @@
+/*paleta de colores*/
+:root{
+    --naranja: #ff6600;
+    --gris: #3a3a3a;
+    --blanco: #ffffff;  
+    --ceniza: #D9D9D9; 
+}
+/*parametros iniciales*/
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&family=Roboto&display=swap');
+body{ 
+  font-family: 'Raleway', sans-serif;
+  color: var(--blanco);
+  background: linear-gradient(to top, var(--blanco) 0%, var(--gris) 40% );
+}
+/*Boton de arriba */
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none; /* Ocultar inicialmente */
+    opacity: 0.7;
+    transition: opacity 0.4s, visibility 0.4s, background-color 0.2s;
+}
+
+#backToTop:hover {
+    opacity: 1;
+    background-color: #555;
+}

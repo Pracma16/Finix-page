@@ -1,0 +1,77 @@
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+.reds{
+    padding: 5%;
+}
+/*foto cambio de color*/
+
+.profile-container {
+  position: relative;
+  margin: -57px 0 112px 106px;
+}
+.conten_usuarios{
+    padding-top: 5%;
+}
+.nombre_testimonio{
+  text-align: center;
+}
+.profile-photo1{
+  overflow: hidden;
+  position: absolute;
+  width: 100px; /* Set your desired width */
+  height: 100px; /* Set your desired height */
+  border-radius: 50%;
+  background-image: url('Finiximagenes/mujer.jpg'); /* Replace with your grayscale image */
+  background-size: cover;
+  transition: filter 0.5s ease; /* Smooth transition effect */
+  filter: grayscale(90%);
+}
+
+
+.profile-photo1:hover {
+  filter: grayscale(0%); /* Change grayscale to 0% on hover to display the original color */
+}
+
+.profile-photo2{
+  overflow: hidden;
+  position: absolute;
+  width: 100px; /* Set your desired width */
+  height: 100px; /* Set your desired height */
+  border-radius: 50%;
+  background-image: url('Finiximagenes/hombre2.jpg'); /* Replace with your grayscale image */
+  background-size: cover;
+  transition: filter 0.5s ease; /* Smooth transition effect */
+  filter: grayscale(90%);
+}
+
+
+.profile-photo2:hover {
+  filter: grayscale(0%); /* Change grayscale to 0% on hover to display the original color */
+}
+
+.profile-photo3{
+  overflow: hidden;
+  position: absolute;
+  width: 100px; /* Set your desired width */
+  height: 100px; /* Set your desired height */
+  border-radius: 50%;
+  background-image: url('Finiximagenes/hombre.jpg'); /* Replace with your grayscale image */
+  background-size: cover;
+  transition: filter 0.5s ease; /* Smooth transition effect */
+  filter: grayscale(90%);
+}
+
+
+.profile-photo3:hover {
+  filter: grayscale(0%); /* Change grayscale to 0% on hover to display the original color */
+}
