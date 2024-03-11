@@ -24,6 +24,8 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&family=Roboto&display=swap');
 body{ 
+  width: 100%;
+  overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   color: var(--blanco);
   background: linear-gradient(to top, var(--blanco) 0%, var(--gris) 40% );
@@ -46,6 +48,11 @@ body{
     display: none; /* Ocultar inicialmente */
     opacity: 0.7;
     transition: opacity 0.4s, visibility 0.4s, background-color 0.2s;
+}
+@media only screen and (max-width: 780px){
+  #backToTop{
+    display: none;
+  }
 }
 
 #backToTop:hover {
