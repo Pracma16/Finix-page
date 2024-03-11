@@ -1,0 +1,24 @@
+.rating {
+  direction: rtl; /* Asegura que el orden sea de izquierda a derecha */
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rating label:before {
+  content: '\2605'; /* Carácter de estrella */
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: gold;
+}
+
